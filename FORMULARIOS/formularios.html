@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+</head>
+<body>
+    <h1>FORMULARIOS</h1>
+    <form action="">
+        <label for="">Nombre</label><input type="text">
+        <label for="">Apellidos</label><input type="text">
+        <input type="reset" value="reset">
+        <input type="submit">
+    </form>
+    <br>    
+    <form>
+        <label for="">Numero de telefono</label><input type="number">
+        <label for="">email</label><input type="email">
+        <label for="">URL</label><input type="url">
+        <label for="">color favorito</label><input type="color" value="">
+        <input type="reset" value="reset">
+    </form>
+    <br>
+    <form>
+        <label for="">contraseña</label>
+        <input type="password">
+        <input type="submit">
+    </form>
+    <br>
+    <form>
+        <label for="">coche</label><br>
+        <input type="checkbox" name="casilla">marcar si tiene coche propio
+    </form>
+    <br>
+    <form>
+        <label for="">Marcar género</label><br>
+        <input type="radio" name="boton" value="1">Masculino<br>
+        <input type="radio" name="boton" value="2">Femenino<br>
+        <input type="radio" name="boton" value="3">Otro<br>
+        <label for="">Dudas?</label><br>
+        <textarea name="" rows="5" cols="50">ESCRIBE AQUÍ</textarea><br>
+        <label for="">elegir entre 1 y 5</label><br>
+        <select name="">
+            <option value="1">1</option><br>
+            <option value="2">2</option><br>
+            <option value="3">3</option><br>
+            <option value="4">4</option><br>
+            <option value="5">5</option><br>
+        </select>
+    </form>
+    <form>       
+        <label for="">Nombre minimo 1 letra max 10</label><br>
+        <input type="text" minlength="1" maxlength="10"><br>
+    </form> 
+    <form>
+        <label for="">País de nacimiento</label><br>
+        <select name="">
+            <optgroup label="Europa">
+                <option value="ES">España</option>
+                <option value="PO">Prtugal</option>
+                <option value="FR">Francia</option>
+                <option value="AL">Alemania</option>
+            </optgroup>
+            <optgroup label="Asia">
+                <option value="JA">Japón</option>
+                <option value="CH">China</option>
+                <option value="TA">Tailandia</option>
+                <option value="RU">Rusia</option>
+            </optgroup>
+        </select>
+    </form>
+    <form>
+        <label for="">RANGO DEL 1 AL 10</label><br>
+        <input type="range" min="1" name="rango" max="10" step="1" list="lista1">
+        <datalist id="lista1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </datalist>
+    </form>
+
+
+</body>
+</html>
