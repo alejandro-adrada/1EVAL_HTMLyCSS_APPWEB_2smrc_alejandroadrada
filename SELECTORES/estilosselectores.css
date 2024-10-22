@@ -1,0 +1,23 @@
+*{
+    background-color: aquamarine;
+}
+h1{
+    color: antiquewhite;
+    background-color: blue;
+}
+p.p1{
+    background-color: azure;
+}
+p.p3{
+    background-color: azure;
+}
+p.p5{
+    background-color: azure;
+}
+p#p2{
+    background-color: gold;
+}
+p#p4{
+    background-color: chartreuse;
+    
+}
