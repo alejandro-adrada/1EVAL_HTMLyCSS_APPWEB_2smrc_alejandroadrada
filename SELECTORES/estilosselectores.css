@@ -19,5 +19,27 @@ p#p2{
 }
 p#p4{
     background-color: chartreuse;
-    
+}
+footer p{
+    color: fuchsia;
+}
+footer{
+    border-color:red;
+    border-style:double ;
+    border-width: 25px;
+}
+p#p8{
+    border-top: mediumblue 10px dotted;
+    border-left: magenta 10px dashed;
+    border-right: gold 10px solid;
+    border-bottom: mediumblue 10px solid;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 25px;
+    padding: 15px;
+}
+body{
+    padding: 30px;
 }
