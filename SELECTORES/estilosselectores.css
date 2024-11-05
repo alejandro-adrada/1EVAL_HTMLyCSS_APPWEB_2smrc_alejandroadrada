@@ -40,6 +40,12 @@ p#p8{
     margin-right: 25px;
     padding: 15px;
 }
+p.p6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fes%2Fphotos%2Ffondos-para-texto.html&psig=AOvVaw0idsSEQmEqhotO9EH7tpDS&ust=1730908741067000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDM6uLHxYkDFQAAAAAdAAAAABAJ);
+    text-align: center;
+    
+}
 body{
     padding: 30px;
 }
