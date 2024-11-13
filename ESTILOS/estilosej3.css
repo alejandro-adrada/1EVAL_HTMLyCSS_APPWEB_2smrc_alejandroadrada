@@ -1,0 +1,18 @@
+ul.circulos{
+list-style-type: circle;
+}
+ul.discos{
+list-style-type: disc;
+}
+ul.cuadrados{
+list-style-type: square;
+}
+li.square{
+list-style-type: square;
+}
+li.circle{
+list-style-type: circle;
+}
+li.disk{
+list-style-type: disc;
+}
